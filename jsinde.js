@@ -6,6 +6,8 @@
     const moon = document.querySelector('.moon');
     const cardText = document.querySelector('.inner');
     const loidan = document.querySelector('.loidan');
+    let isTimeoutTriggered = false;
+    let isTimeoutTriggered1 = false;
  if(clickme){
     clickme.addEventListener("click",function(){
 
@@ -43,8 +45,10 @@ const message = textElement.innerText; // Lấy nội dung của h1
     
     })
     })
-  }
+
+
   
+}
  function createParticle() {
     const particle = document.createElement('div');
     particle.classList.add('particle');
@@ -93,7 +97,7 @@ const dung = document.querySelector('.dung');
 const sai = document.querySelector('.sai');
 
 let a=0;
-let isTimeoutTriggered = false;
+
 
 sai.addEventListener('click', function() {
 
