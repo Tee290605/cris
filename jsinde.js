@@ -7,14 +7,13 @@
     const cardText = document.querySelector('.inner');
     const loidan = document.querySelector('.loidan');
     let isTimeoutTriggered = false;
-    let isTimeoutTriggered1 = false;
+  
  if(clickme){
     clickme.addEventListener("click",function(){
 
         div1.classList.add('show');
         textElement.style.display = 'block'
         clickme.style.display = 'none';
-        hand.style.display = 'none';
         trees.forEach(tree => {
           tree.style.display = 'none'; // Ẩn tất cả các cây
       });
