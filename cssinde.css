@@ -407,7 +407,7 @@ body {
 }
 
 .card-front {
-    background-color: #c91111;
+    background-color: #2062be;
     color: white;
     z-index: 2; /* Giữ mặt trước ở trên */
     transform-origin: left; /* Lật từ cạnh trái */
